@@ -6,12 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0D3DEC4F19AF673100F31B18 /* PG1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = PG1.cpp; sourceTree = "<group>"; };
+		0D3DEC5019AF673100F31B18 /* PG1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = PG1.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0D3DEC4819AF670C00F31B18 = {
 			isa = PBXGroup;
 			children = (
+				0D3DEC4F19AF673100F31B18 /* PG1.cpp */,
+				0D3DEC5019AF673100F31B18 /* PG1.h */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXGroup section */
 
@@ -59,7 +67,7 @@
 				0D3DEC4E19AF670C00F31B18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
